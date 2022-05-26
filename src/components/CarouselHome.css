@@ -1,0 +1,54 @@
+.CarouselHome {
+  width: 50%;
+  margin: 10rem auto;
+  height: 570px;
+}
+
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #d0c8b6;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+  margin-right: 10%;
+  background-color: transparent;
+  color: rgba(243, 235, 235, 0.84);
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+  margin-left: 10%;
+  background-color: transparent;
+  color: rgba(243, 235, 235, 0.84);
+}
