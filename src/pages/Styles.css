@@ -1,0 +1,19 @@
+/* SPECIALS CSS ONLY FOR SPECIFICS EFFECTS 
+- NEUMORPHISM
+- GLASSMORPHISM 
+*/
+
+.title {
+  background-color: #e3dad5;
+  height: 100%;
+  color: #e3dad5;
+  text-shadow: -2px 2px 4px #d0c6c0, 2px -2px 4px #f1e7e2ef;
+}
+.body {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.064);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
