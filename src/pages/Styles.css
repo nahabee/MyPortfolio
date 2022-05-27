@@ -9,8 +9,14 @@
   color: #e3dad5;
   text-shadow: -2px 2px 4px #d0c6c0, 2px -2px 4px #f1e7e2ef;
 }
+.titleOlive {
+  background-color: #d0c8b6;
+  height: 100%;
+  color: #d0c8b6;
+  text-shadow: -2px 2px 4px #b3a78c9e, 2px -2px 4px #d0c8b6c6;
+}
 .body {
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.02);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.064);
   backdrop-filter: blur(3.2px);
@@ -18,9 +24,9 @@
   border: 1px solid rgba(255, 255, 255, 0.28);
 }
 .cards {
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0);
   border-radius: 60px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.064);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.023);
   backdrop-filter: blur(3.2px);
   -webkit-backdrop-filter: blur(3.2px);
   border: 1px solid rgba(255, 255, 255, 0.28);
