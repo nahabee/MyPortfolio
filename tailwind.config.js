@@ -24,11 +24,13 @@ module.exports = {
       beige: "#e6cdb5",
       orange: "#f7d8b5",
       olive: "#d0c8b6",
+      white: "#FFFAF0",
     },
     extend: {
       backgroundImage: {},
       fontFamily: {
         title: ["Patua"],
+        body: ["Quicksand"],
       },
     },
   },
