@@ -6,7 +6,7 @@ const Home = () => {
     <div className="bg-grey h-full w-full ">
       <div className="grid grid-cols-3 font-title sm:grid-cols-1">
         <h1 className="title text-8xl ml-3.5 sm:text-6xl ">WELCOME</h1>
-        <h1 className="title text-6xl flex justify-center mt-10 sm:text-4xl ">
+        <h1 className="title text-6xl flex justify-center ml-3.5 mt-10 sm:text-4xl ">
           to my
         </h1>
         <h1 className="title text-8xl mt-12 sm:text-7xl sm:ml-3.5">
@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className="">
         <div className="grid gap-20 grid-cols-3 ml-14 mr-20 lg:grid-cols-1 lg:gap-10">
-          <div className="body flex flex-col mt-8 ">
+          <div className="cards flex flex-col mt-8 ">
             <div className="text-justify pt-5 pb-10">
               <h1 className="text-5xl text-white ml-8 font-title tracking-widest">
                 Hello,

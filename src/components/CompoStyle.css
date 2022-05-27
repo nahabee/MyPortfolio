@@ -52,3 +52,11 @@
   background-color: transparent;
   color: rgba(243, 235, 235, 0.84);
 }
+.body {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.064);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
