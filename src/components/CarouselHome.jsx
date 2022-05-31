@@ -9,7 +9,7 @@ import home from "../assets/home.png";
 import projects from "../assets/projects.png";
 import tools from "../assets/tools.png";
 import contact from "../assets/contact.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function CarouselHome() {
   const NextArrow = ({ onClick }) => {
@@ -29,7 +29,7 @@ function CarouselHome() {
   };
 
   const images = [home, projects, tools, contact];
-  const link = ["/", "/projects", "/tools", "/contact"];
+  const link = ["about", "projects", "tools", "contact"];
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
@@ -52,9 +52,9 @@ function CarouselHome() {
             key={idx}
             className={idx === imageIndex ? "slide activeSlide" : "slide"}
           >
-            <NavLink to={link[idx]}>
+            <Link to={link[idx]} smooth duration={1200}>
               <img src={img} alt={img} />
-            </NavLink>
+            </Link>
           </div>
         ))}
       </Slider>

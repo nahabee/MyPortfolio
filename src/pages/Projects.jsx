@@ -1,15 +1,10 @@
-import Navbar from "../components/Navbar";
-
 const Projects = () => {
   return (
-    <div className="bg-olive h-screen w-sceen">
-      <div>
-        <h1 className="titleOlive text-8xl ml-3.5 sm:text-6xl font-title">
-          {" "}
-          PROJECTS{" "}
-        </h1>
-        <Navbar />
-      </div>
+    <div className="bg-orange h-screen w-sceen" name="projects">
+      <h1 className="titleOrange ml-3.5 text-8xl sm:text-6xl sm:text-center">
+        {" "}
+        PROJECTS{" "}
+      </h1>
     </div>
   );
 };

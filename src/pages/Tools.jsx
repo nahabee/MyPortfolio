@@ -1,7 +1,10 @@
 const Tools = () => {
   return (
-    <div className="bg-brown h-screen w-screen">
-      <h1 className="text-olive text-9xl "> Tools </h1>
+    <div className="bg-olive h-screen w-screen" name="tools">
+      <h1 className="titleOlive text-9xl ml-3.5 sm:text-6xl sm:text-center">
+        {" "}
+        TOOLS{" "}
+      </h1>
     </div>
   );
 };

@@ -13,8 +13,21 @@
   background-color: #d0c8b6;
   height: 100%;
   color: #d0c8b6;
-  text-shadow: -2px 2px 4px #b3a78c9e, 2px -2px 4px #d0c8b6c6;
+  text-shadow: -2px 2px 4px #aca188d9, 2px -2px 4px #d6c9aa4b;
 }
+.titleBeige {
+  background-color: #e6cdb5;
+  height: 100%;
+  color: #e6cdb5;
+  text-shadow: -2px 2px 4px #d5b69cdf, 2px -2px 4px #ebd6c0e5;
+}
+.titleOrange {
+  background-color: #f7d8b5;
+  height: 100%;
+  color: #f7d8b5;
+  text-shadow: -2px 2px 4px #ddba91, 2px -2px 4px #ecc9a1a1;
+}
+
 .body {
   background: rgba(255, 255, 255, 0.02);
   border-radius: 10px;
