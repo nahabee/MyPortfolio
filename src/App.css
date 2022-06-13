@@ -4,3 +4,15 @@
 
 @layer utilities {
 }
+@font-face {
+  font-family: "Patua";
+  src: url("./assets/Patua.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/Quicksand.ttf");
+}
+@font-face {
+  font-family: "cyrvetica";
+  src: url("./assets/cyrvetica.ttf");
+}

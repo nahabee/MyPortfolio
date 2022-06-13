@@ -19,17 +19,22 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
     },
     colors: {
-      brown: "#e2d3cd",
-      grey: "#e3dad5",
-      beige: "#e6cdb5",
-      orange: "#f7d8b5",
-      olive: "#d0c8b6",
-      white: "#FFFAF0",
+      // brown: "#e2d3cd",
+      // grey: "#e3dad5",
+      // beige: "#e6cdb5",
+      // orange: "#f7d8b5",
+      // olive: "#d0c8b6",
+      // white: "#FFFAF0",
+      back: "#f5f5ef",
+      blue: "#004aad",
     },
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        line: "url('/src/assets/line.png')",
+        quote: "url('/src/assets/expectation.png')",
+      },
       fontFamily: {
-        title: ["Patua"],
+        title: ["cyrvetica"],
         body: ["Quicksand"],
       },
     },
