@@ -34,7 +34,7 @@
 }
 
 .arrow svg:hover {
-  color: #d0c8b6;
+  color: #0c376f;
 }
 
 .next {
@@ -42,7 +42,7 @@
   top: 50%;
   margin-right: 10%;
   background-color: transparent;
-  color: rgba(243, 235, 235, 0.84);
+  color: #004aad;
 }
 
 .prev {
@@ -50,7 +50,7 @@
   top: 50%;
   margin-left: 10%;
   background-color: transparent;
-  color: rgba(243, 235, 235, 0.84);
+  color: #004aad;
 }
 .body {
   background: rgba(255, 255, 255, 0.02);

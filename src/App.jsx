@@ -10,9 +10,9 @@ function App() {
     <div>
       <Home />
       <About />
-      <Projects />
+      {/* <Projects />
       <Tools />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
