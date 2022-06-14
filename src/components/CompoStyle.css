@@ -1,13 +1,7 @@
-.CarouselHome {
-  width: 50%;
-  margin: 10rem auto;
-  height: 570px;
-}
-
 .slide img {
   width: 20rem;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 30%;
 }
 
 .slide {
@@ -34,7 +28,7 @@
 }
 
 .arrow svg:hover {
-  color: #0c376f;
+  color: #ea902d;
 }
 
 .next {
@@ -51,12 +45,4 @@
   margin-left: 10%;
   background-color: transparent;
   color: #004aad;
-}
-.body {
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.064);
-  backdrop-filter: blur(3.2px);
-  -webkit-backdrop-filter: blur(3.2px);
-  border: 1px solid rgba(255, 255, 255, 0.28);
 }
