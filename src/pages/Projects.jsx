@@ -1,9 +1,12 @@
 const Projects = () => {
   return (
-    <div className="bg-grey h-full w-full" name="projects">
-      <h1 className="title text-center text-8xl ml-3.5 sm:text-6xl sm:text-center">
+    <div
+      className="bg-projectsline bg-cover h-screen w-screen bg-back"
+      name="projects"
+    >
+      <h1 className="text-blue text-7xl font-title mx-8 sm:text-6xl sm:text-center">
         {" "}
-        PROJECTS{" "}
+        MY PROJECTS{" "}
       </h1>
     </div>
   );
