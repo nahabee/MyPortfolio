@@ -25,7 +25,5 @@ Bienvenue sur mon premier projet solo, qui n'est autre que mon portfolio.
 - _ Airbnb Standard_ : One of the most known "standards", even though it's not officially linked to ES/JS
 - _Vercel_ : Deployment platform. Once you have a Vercel account, run `npm run deploy`, follow the instructions. Go to Vercel, link your github account and your branch. Every push on main will now rebuild your code and automatically deploy it.
 
-#### Note:
 
-- Le carouselHome est un composant react pour la création d'un carousel celui-ci étant configuré en CSS d'origine. J'ai appliqué un style CSS par défaut sur ce composant uniquement.
-- Tout le reste du site est en Tailwind :)
+
