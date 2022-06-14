@@ -1,9 +1,12 @@
 const Contact = () => {
   return (
-    <div className="bg-grey text-title h-full w-full" name="contact">
-      <h1 className="title text-center text-8xl ml-3.5 sm:text-6xl sm:text-center ">
+    <div
+      className="bg-contactline bg-cover h-screen w-screen bg-back"
+      name="contact"
+    >
+      <h1 className="text-blue text-7xl font-title mx-8 sm:text-6xl sm:text-center">
         {" "}
-        CONTACT{" "}
+        CONTACT ME{" "}
       </h1>
     </div>
   );
