@@ -16,10 +16,10 @@ const Home = () => {
           </h2>
         </div>
         <CarouselHome />
-        <h3 className="text-blue font-body mx-8 absolute inset-x-0 bottom-2 tracking-xl">
+        <h3 className="text-blue font-body mx-8 absolute inset-x-0 bottom-2 tracking-xl sm:text-left sm:text-sm sm:flex sm:flex-col">
           {" "}
           <Link to="about">
-            <span className="hover:uppercase cursor-pointer font-body_bold text-xl  ">
+            <span className="hover:uppercase cursor-pointer font-body_bold text-xl sm:text-left  ">
               {" "}
               Discover{" "}
             </span>

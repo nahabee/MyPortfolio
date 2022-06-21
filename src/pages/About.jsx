@@ -11,7 +11,7 @@ const About = () => {
           </span>
           BOUT ME
         </h1>
-        <div className="grid grid-cols-3 gap-24 my-14 mx-8 lg:grid-cols-1 lg:gap-5">
+        <div className="grid grid-cols-3 my-14 mx-8 lg:grid-cols-1 ">
           <div className=" border-t border-blue text-justify font-body text-peche ">
             {" "}
             <span className="text-bold text-6xl text-blue "> Hi ! </span>
@@ -24,7 +24,7 @@ const About = () => {
             on this portfolio. Welcome, and enjoy!
           </div>
 
-          <div className=" border-t my-64 border-blue text-justify font-body text-peche lg:grid-cols-1 lg:gap-5 ">
+          <div className=" border-t my-64 border-blue text-justify font-body text-peche lg:grid-cols-1 lg:gap-5 lg:hidden ">
             <span className="text-bold text-5xl text-blue "> WHY ? </span>
             Guilty, when i was 6, i've first begin to play sims at the library
             of my little town. It was the begging of a long story time. Twenty
