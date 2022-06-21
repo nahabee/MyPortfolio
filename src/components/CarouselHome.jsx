@@ -1,4 +1,4 @@
-import "./CompoStyle.css";
+import "./CarouselStyle.css";
 import Slider from "react-slick";
 import { useState } from "react";
 import PropTypes from "prop-types";

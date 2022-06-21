@@ -1,5 +1,5 @@
 .slide img {
-  width: 20rem;
+  width: 40rem;
   margin: 0 auto;
   margin-top: 30%;
 }
@@ -30,11 +30,11 @@
 .arrow svg:hover {
   color: #ea902d;
 }
-
+/* ARROWS */
 .next {
   right: 0%;
   top: 50%;
-  margin-right: 10%;
+  margin-right: 5%;
   background-color: transparent;
   color: #004aad;
 }
@@ -42,7 +42,7 @@
 .prev {
   left: 0%;
   top: 50%;
-  margin-left: 10%;
+  margin-left: 5%;
   background-color: transparent;
   color: #004aad;
 }

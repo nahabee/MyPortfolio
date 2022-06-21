@@ -1,14 +1,17 @@
 const Projects = () => {
   return (
-    <div className="bg-back bg-cover h-screen w-screen " name="projects">
-      <h1 className="text-blue text-7xl font-title sm:text-5xl sm:text-center border-t border-blue ">
-        MY PROJECTS
+    <div
+      className="bg-back bg-cover h-screen w-screen border-t border-b border-blue scrollbar-hide sm:h-auto"
+      name="projects"
+    >
+      <h1 className="text-blue text-9xl font-title sm:text-5xl sm:text-center m-12">
+        MY PROJECTS.
       </h1>
 
       {/* Présentation des projets */}
-      <div className=" w-full flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-12 ">
+      <div className=" w-full flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-12 scrollbar-hide ">
         <div className="snap-center shrink-0">
-          <div className="shrink-0 w-4 sm:w-48" />
+          <div className="shrink-0 w-4 " />
         </div>
         <div className="snap-center shrink-0">
           <a
@@ -21,6 +24,18 @@ const Projects = () => {
               src="./src/assets/cenitz.png"
             />
           </a>
+          <p className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
+            {" "}
+            <h1 className="font-body_bold text-left text-lg mb-4">
+              A RESTAURANT BETWEEN LAND AND SEA.
+            </h1>
+            The natural and peaceful atmosphere of the restaurant is aligned
+            with this environment between land and sea. We were also
+            exceptionally lucky that the architecture and design of the place
+            was carried out by India Mahdavi. The restaurant also has a terrace
+            outdoor area ideal for sunny days, as well as a vegetated winter
+            garden, echoing the land-sea cuisine of our chef.
+          </p>
         </div>
 
         <div className="snap-center shrink-0">
@@ -34,6 +49,19 @@ const Projects = () => {
               src="./src/assets/xpanse.png"
             />
           </a>
+          <p className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
+            {" "}
+            <h1 className="font-body_bold text-left text-lg mb-4">
+              SPATIAL RECRUITMENT AGENCY.
+            </h1>
+            Xpanse agency has gained worldwide attention for a series of
+            historic milestones. It is the only private company capable of
+            returning a spacecraft from low-Earth orbit, and in 2012 our Dragon
+            spacecraft became the first commercial spacecraft to deliver cargo
+            to and from the International Space Station. And in 2020, Xpanse
+            agency became the first private company to take humans there as
+            well.
+          </p>
         </div>
 
         <div className="snap-center shrink-0">
@@ -41,12 +69,38 @@ const Projects = () => {
             className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
             src="./src/assets/agibask.png"
           />
+          <p className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
+            {" "}
+            <h1 className="font-body_bold text-left text-lg mb-4">
+              THE GREEN PLATEFORM.
+            </h1>
+            A platform for connecting individuals and associations for
+            ecological and collective purposes in the Basque Country. With a
+            simple and effective interface in order to carry out more concrete
+            and sustainable actions in order to reduce the impact of pollution
+            and make the general public aware of the safeguarding of our
+            territory.
+          </p>
         </div>
         <div className="snap-center shrink-0">
           <img
             className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
             src="./src/assets/brille.png"
           />
+          <p className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
+            {" "}
+            <h1 className="font-body_bold text-left text-lg mb-4">
+              BRILLE, FASHION AND VEGAN HANDBAGS.
+            </h1>
+            Brille is an eco-responsible and vegan brand of handbags made in
+            Spain in a workshop on a human scale, in the heart of the Ubrique
+            region. Its soft vegetable materials, imitating leather to
+            perfection, are produced in northern Italy, from apple waste. Its
+            interior cotton is an eco-responsible material produced in Spain.
+            Brille then offers a qualitative product above all, durable,
+            ethical, good for the planet, chic, glamorous and in bright colors,
+            to shine in all circumstances, wherever you are.
+          </p>
         </div>
         <div className="snap-center shrink-0">
           <img
