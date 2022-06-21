@@ -13,6 +13,10 @@
   src: url("./assets/Quicksand.ttf");
 }
 @font-face {
+  font-family: "Quicksand-bold";
+  src: url("./assets/Quicksand-bold.ttf");
+}
+@font-face {
   font-family: "cyrvetica";
   src: url("./assets/cyrvetica.ttf");
 }

@@ -18,8 +18,19 @@ module.exports = {
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
     },
+    letterSpacing: {
+      tightest: "-.075em",
+      tighter: "-.05em",
+      tight: "-.025em",
+      normal: "0",
+      wide: ".025em",
+      wider: ".05em",
+      widest: ".1em",
+      xl: ".25em",
+    },
     textUnderlineOffset: {
       1: "0,5px",
+      9: "10px",
     },
     borderRadius: {
       none: "0",
@@ -47,6 +58,7 @@ module.exports = {
       fontFamily: {
         title: ["cyrvetica"],
         body: ["Quicksand"],
+        body_bold: ["Quicksand-bold"],
       },
     },
   },
