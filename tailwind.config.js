@@ -55,6 +55,12 @@ module.exports = {
         toolsline: "url('/src/assets/toolsline.png')",
         contactline: "url('/src/assets/contactline.png')",
       },
+      width: {
+        "5/5": "10%",
+      },
+      margin: {
+        "9/9": "600px",
+      },
       fontFamily: {
         title: ["cyrvetica"],
         body: ["Quicksand"],
@@ -62,4 +68,8 @@ module.exports = {
       },
     },
   },
+  plugins: [
+    require("tailwind-scrollbar-hide"), // add this to your plugins
+    // ...
+  ],
 };
