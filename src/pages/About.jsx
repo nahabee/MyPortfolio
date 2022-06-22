@@ -32,7 +32,7 @@ const About = () => {
       </div>
       <div className="flex w-3/12 ml-9/9 mt-12 border-l border-r border-blue sm:flex-col sm:hidden">
         <p className="font-body text-justify ml-3 mr-3">
-          For web developement, creativity is key . I choose to be front-end web
+          For web developement, creativity is key. I choose to be front-end web
           developer especially for this reason. We are able to create
           first-class user experiences and charming websites full of design. It
           is easy for us to forget how dependent we have become on technology.
