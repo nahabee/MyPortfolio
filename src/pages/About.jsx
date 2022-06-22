@@ -4,17 +4,15 @@ const About = () => {
       className="bg-back bg-aboutline bg-cover h-screen w-screen"
       name="about"
     >
-      <div className="flex text-blue font-title ml-12 sm:h-auto">
-        <h1 className=" text-9xl mt-10 sm:text-5xl sm:text-center">
-          ABOUT ME.
-        </h1>
+      <div className="flex text-blue font-title ml-12  ">
+        <h1 className=" text-9xl mt-10 sm:text-4xl ">ABOUT ME.</h1>
       </div>
 
       <div className="flex flex-col w-1/5 ml-12 mt-14 border-t border-b border-blue sm:flex-col sm:w-64 sm:justify-center">
-        <h1 className="text-5xl font-body text-left text-blue mt-3 mb-3 sm:text-5xl">
+        <h1 className="text-5xl font-body text-left text-blue mt-3 mb-3 sm:text-2xl sm:text-center">
           WHO AM I ?
         </h1>
-        <p className="font-body text-justify mb-3">
+        <p className="font-body text-justify mb-3 sm:text-xs">
           By day I'm a regular girl and by night a sims4 player … Just joking!
           I'm a regular girl all the time, harde worker, close to my family, and
           mother of a dog. Actually, my dog thinks I'm a hero because I saved
@@ -24,7 +22,7 @@ const About = () => {
           especially self-help book.{" "}
         </p>
       </div>
-      <div className="flex justify-center -mt-52 sm:justify-start">
+      <div className="flex justify-center -mt-64 sm:justify-start">
         <h1 className="skew-y-3 text-5xl flex flex-col w-4/12 font-body text-left text-blue ml-56 -m-4 sm:text-4xl sm:hidden ">
           {" "}
           WHY WEB DEVELOPMENT ?{" "}

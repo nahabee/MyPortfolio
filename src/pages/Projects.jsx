@@ -4,29 +4,29 @@ const Projects = () => {
       className="bg-back bg-cover h-screen w-screen border-t border-b border-blue scrollbar-hide sm:h-auto"
       name="projects"
     >
-      <h1 className="text-blue text-9xl font-title sm:text-5xl sm:text-center m-12">
+      <h1 className="text-blue text-9xl font-title sm:text-4xl sm:text-center m-12">
         MY PROJECTS.
       </h1>
 
       {/* Présentation des projets */}
-      <div className=" w-full flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-12 scrollbar-hide ">
+      <div className=" w-full flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-12 scrollbar-hide sm:gap-0 ">
         <div className="snap-center shrink-0">
-          <div className="shrink-0 w-4 " />
+          <div className="shrink-0 w-4 sm:w-0" />
         </div>
-        <div className="snap-center shrink-0">
+        <div className="snap-center shrink-0 ">
           <a
             href="https://jacquespoulin.github.io/Cenitz/index.html"
             className=""
             target="_blank"
           >
             <img
-              className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
+              className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer "
               src="./src/assets/cenitz.png"
             />
           </a>
-          <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
+          <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue sm:w-40">
             {" "}
-            <span className="font-body_bold text-left text-lg mb-4">
+            <span className="font-body_bold text-left text-lg mb-4 sm:w-20 sm:text-sm sm:text-center">
               A RESTAURANT BETWEEN LAND AND SEA.
             </span>
             The natural and peaceful atmosphere of the restaurant is aligned

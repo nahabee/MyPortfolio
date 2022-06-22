@@ -4,7 +4,7 @@ const Tools = () => {
       className="bg-aboutline bg-cover h-screen w-screen bg-back"
       name="tools"
     >
-      <h1 className="text-blue text-9xl font-title mx-8 sm:text-6xl sm:text-center">
+      <h1 className="text-blue text-9xl font-title mx-8 sm:text-4xl sm:text-center">
         {" "}
         MY TOOLS.{" "}
       </h1>

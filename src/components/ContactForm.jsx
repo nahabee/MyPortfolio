@@ -1,8 +1,6 @@
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 
-import "react-toastify/dist/ReactToastify.css";
-
 const notify = () => toast("Message successfully send !");
 
 const ContactForm = () => {
@@ -22,7 +20,7 @@ const ContactForm = () => {
   }
   return (
     <div className="flex p-12">
-      <form className="w-full max-w-[550px]" onSubmit={sendEmail}>
+      <form className="w-full max-w-[550px] sm:w-64 " onSubmit={sendEmail}>
         <div className="mb-5">
           <label htmlFor="name" className="mb-3 block text-blue text-body ">
             Your Name
@@ -77,7 +75,7 @@ const ContactForm = () => {
         </div>
         <div>
           <button
-            className="hover:shadow-form rounded-md bg-blue py-3 px-8 text-back text-body outline-none"
+            className="rounded-md bg-blue py-3 px-8 text-back text-body"
             onSubmit={notify}
           >
             Submit
