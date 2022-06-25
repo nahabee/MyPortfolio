@@ -19,7 +19,7 @@ const ContactForm = () => {
       .catch((err) => console.log(err));
   }
   return (
-    <div className="flex p-12">
+    <div className="flex p-12 sm:p-0 sm:mx-7">
       <form className="w-full max-w-[550px] sm:w-64 " onSubmit={sendEmail}>
         <div className="mb-5">
           <label htmlFor="name" className="mb-3 block text-blue text-body ">
@@ -80,9 +80,9 @@ const ContactForm = () => {
           >
             Submit
           </button>
-          <ToastContainer />
         </div>
-      </form>
+      </form>{" "}
+      <ToastContainer />
     </div>
   );
 };
