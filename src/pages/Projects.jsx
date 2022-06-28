@@ -4,7 +4,7 @@ const Projects = () => {
       className="bg-back bg-cover h-screen w-screen border-t border-b border-blue scrollbar-hide sm:auto"
       name="projects"
     >
-      <h1 className="text-blue text-9xl font-title sm:hidden m-12">
+      <h1 className="text-blue text-9xl font-title sm:hidden mx-8">
         MY PROJECTS.
       </h1>
 
@@ -18,7 +18,7 @@ const Projects = () => {
           >
             <img
               className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./src/assets/cenitz.png"
+              src="./public/assets/cenitz.png"
             />
           </a>
           <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue ">
@@ -43,7 +43,7 @@ const Projects = () => {
           >
             <img
               className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./src/assets/xpanse.png"
+              src="./public/assets/xpanse.png"
             />
           </a>
           <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
@@ -64,7 +64,7 @@ const Projects = () => {
         <div className="snap-center shrink-0">
           <img
             className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-            src="./src/assets/agibask.png"
+            src="./public/assets/agibask.png"
           />
           <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
             {" "}
@@ -82,7 +82,7 @@ const Projects = () => {
         <div className="snap-center shrink-0">
           <img
             className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-            src="./src/assets/brille.png"
+            src="./public/assets/brille.png"
           />
           <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
             {" "}
@@ -102,13 +102,13 @@ const Projects = () => {
         <div className="snap-center shrink-0">
           <img
             className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-            src="./src/assets/comingsoon.png"
+            src="./public/assets/comingsoon.png"
           />
         </div>
         <div className="snap-center shrink-0">
           <img
             className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-            src="./src/assets/comingsoon.png"
+            src="./public/assets/comingsoon.png"
           />
         </div>
         <div className="snap-center shrink-0">
@@ -116,7 +116,7 @@ const Projects = () => {
         </div>
       </div>
       {/* mobile only */}
-      <div className=" text-blue flex flex-col items-center font-mtitle md:hidden">
+      <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5"> PROJECTS </h1>
         {/* projects */}
         <div className="flex w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-8 scrollbar-hide">
@@ -127,7 +127,7 @@ const Projects = () => {
             >
               <img
                 className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-                src="./src/assets/cenitz.png"
+                src="./public/assets/cenitz.png"
               />
             </a>
             <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue ">
@@ -152,7 +152,7 @@ const Projects = () => {
             >
               <img
                 className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-                src="./src/assets/xpanse.png"
+                src="./public/assets/xpanse.png"
               />
             </a>
             <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
@@ -173,7 +173,7 @@ const Projects = () => {
           <div className="snap-center shrink-0">
             <img
               className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./src/assets/agibask.png"
+              src="./public/assets/agibask.png"
             />
             <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
               {" "}
@@ -191,7 +191,7 @@ const Projects = () => {
           <div className="snap-center shrink-0">
             <img
               className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./src/assets/brille.png"
+              src="./public/assets/brille.png"
             />
             <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
               {" "}

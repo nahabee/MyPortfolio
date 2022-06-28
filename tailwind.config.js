@@ -17,6 +17,8 @@ module.exports = {
 
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
+      m: { min: "639px" },
+      // => @media (min-width: 639px) { ... }
     },
     letterSpacing: {
       tightest: "-.075em",
@@ -49,11 +51,11 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        homeline: "url('/src/assets/homeline.png')",
-        aboutline: "url('/src/assets/aboutline.png')",
-        projectsline: "url('/src/assets/projectsline.png')",
-        toolsline: "url('/src/assets/toolsline.png')",
-        contactline: "url('/src/assets/contactline.png')",
+        homeline: "url('/public/assets/homeline.png')",
+        aboutline: "url('/public/assets/aboutline.png')",
+        projectsline: "url('/public/assets/projectsline.png')",
+        toolsline: "url('/public/assets/toolsline.png')",
+        contactline: "url('/public/assets/contactline.png')",
       },
       width: {
         "5/5": "10%",

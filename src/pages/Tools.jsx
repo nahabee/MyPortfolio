@@ -12,84 +12,84 @@ const Tools = () => {
         <div className="w-56 h-56 ">
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/react.png"
+            src="./public/assets/react.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/js.png"
+            src="./public/assets/js.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/sql.png"
+            src="./public/assets/sql.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/node js.png"
+            src="./public/assets/node js.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/tailwind.png"
+            src="./public/assets/tailwind.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/sass.png"
+            src="./public/assets/sass.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/canva.png"
+            src="./public/assets/canva.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/figma.png"
+            src="./public/assets/figma.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/vscode.png"
+            src="./public/assets/vscode.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/postman.png"
+            src="./public/assets/postman.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/github.png"
+            src="./public/assets/github.png"
           />
         </div>
         <div className="w-56 h-56">
           {" "}
           <img
             className="hover:scale-75 transition duration-700 cursor-pointer"
-            src="./src/assets/npm.png"
+            src="./public/assets/npm.png"
           />
         </div>
       </div>
@@ -98,53 +98,53 @@ const Tools = () => {
       <div className=" text-blue flex flex-col items-center font-mtitle border-b h-screen md:hidden">
         <h1 className="text-center text-5xl mt-5"> TOOLS </h1>
         {/* grid tools dev */}
-        <div className="grid grid-cols-2 w-2/3">
+        <div className="grid grid-cols-2 w-2/3 sm:w-1/2">
           <div>
-            <img src="./src/assets/react.png" />
+            <img src="./public/assets/react.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/js.png" />
+            <img src="./public/assets/js.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/sql.png" />
+            <img src="./public/assets/sql.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/node js.png" />
+            <img src="./public/assets/node js.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/tailwind.png" />
+            <img src="./public/assets/tailwind.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/sass.png" />
+            <img src="./public/assets/sass.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/canva.png" />
+            <img src="./public/assets/canva.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/figma.png" />
+            <img src="./public/assets/figma.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/vscode.png" />
+            <img src="./public/assets/vscode.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/postman.png" />
+            <img src="./public/assets/postman.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/github.png" />
+            <img src="./public/assets/github.png" />
           </div>
           <div>
             {" "}
-            <img src="./src/assets/npm.png" />
+            <img src="./public/assets/npm.png" />
           </div>
         </div>
       </div>

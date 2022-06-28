@@ -5,7 +5,7 @@ const About = () => {
       name="about"
     >
       <div className="flex flex-col">
-        <h1 className=" text-blue font-title ml-12 text-9xl mt-10 sm:hidden">
+        <h1 className=" text-blue font-title ml-12 text-9xl mx-8 sm:hidden">
           ABOUT ME.
         </h1>
       </div>
@@ -43,9 +43,9 @@ const About = () => {
         </p>
       </div>
       {/* mobile only */}
-      <div className=" text-blue flex flex-col items-center font-mtitle md:hidden">
+      <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5"> ABOUT ME</h1>
-        <img className="h-80 w-60 " src="./src/assets/orangeDecor.png" />
+        <img className="h-80 w-60 " src="./public/assets/orangeDecor.png" />
         <p className="font-body text-justify text-base mx-5 overscroll-x-auto overflow-auto h-60">
           <span className="font-mtitle text-2xl ">Who I Am?</span> By day I'm a
           regular girl and by night a sims4 player … Just joking! I'm a regular
@@ -55,6 +55,7 @@ const About = () => {
           important. I love to travel and I'm always planning my next trip.I
           love music, design, and photography. I read a lot, especially
           self-help book.
+          <br />
           <span className="font-mtitle text-2xl ">
             Why Web Developement?
           </span>{" "}

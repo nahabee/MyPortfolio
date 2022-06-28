@@ -9,12 +9,14 @@ const Home = () => {
         </div>
       </div>
       {/* mobile only */}
-      <div className=" flex flex-col text-blue font-mtitle  md:hidden">
-        <h1 className="uppercase text-center text-5xl mt-5">Nawel Benaicha</h1>
+      <div className=" flex flex-col text-blue font-mtitle  m:hidden">
+        <h1 className="uppercase text-center text-5xl mt-5 sm:mt-3">
+          Nawel Benaicha
+        </h1>
         <h2 className="text-center text-xl">Web developer</h2>
       </div>
-      <div className="flex flex-col items-center text-blue md:hidden">
-        <img src="./src/assets/flower.png" />
+      <div className="flex flex-col items-center text-blue m:hidden">
+        <img src="./public/assets/flower.png" />
         <p className="font-body text-center ">
           {" "}
           <span className="font-mtitle text-3xl">M</span>obile version of this

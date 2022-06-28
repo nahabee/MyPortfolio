@@ -11,8 +11,8 @@ const Contact = () => {
         CONTACT ME.{" "}
       </h1>
       {/* mobile only */}
-      <div className=" text-blue flex flex-col items-center font-mtitle md:hidden">
-        <h1 className="text-center text-5xl mt-5 mb-5"> PROJECTS </h1>
+      <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
+        <h1 className="text-center text-5xl mt-5 mb-5"> CONTACT </h1>
       </div>
       <ContactForm />
     </div>
