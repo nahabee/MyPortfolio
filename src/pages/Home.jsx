@@ -16,7 +16,7 @@ const Home = () => {
         <h2 className="text-center text-xl">Web developer</h2>
       </div>
       <div className="flex flex-col items-center text-blue m:hidden">
-        <img src="./public/assets/flower.png" />
+        <img src="../assets/flower.png" />
         <p className="font-body text-center ">
           {" "}
           <span className="font-mtitle text-3xl">M</span>obile version of this
