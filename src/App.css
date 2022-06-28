@@ -20,3 +20,11 @@
   font-family: "cyrvetica";
   src: url("./assets/cyrvetica.ttf");
 }
+@font-face {
+  font-family: "misto";
+  src: url("./assets/Misto.ttf");
+}
+@font-face {
+  font-family: "chromate";
+  src: url("./assets/Chromate.ttf");
+}
