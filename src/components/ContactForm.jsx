@@ -21,7 +21,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="flex p-12 sm:p-0 sm:mx-7">
+    <div className="flex p-12 sm:p-0 justify-center">
       <form className="w-full max-w-[550px] sm:w-64 " onSubmit={sendEmail}>
         <div className="mb-5">
           <label htmlFor="name" className="mb-3 block text-blue text-body ">
