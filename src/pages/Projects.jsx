@@ -43,7 +43,7 @@ const Projects = () => {
           >
             <img
               className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./public/assets/xpanse.png"
+              src="../assets/xpanse.png"
             />
           </a>
           <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
