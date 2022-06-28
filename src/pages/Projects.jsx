@@ -173,7 +173,7 @@ const Projects = () => {
           <div className="snap-center shrink-0">
             <img
               className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./public/assets/agibask.png"
+              src="../assets/agibask.png"
             />
             <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
               {" "}
@@ -191,7 +191,7 @@ const Projects = () => {
           <div className="snap-center shrink-0">
             <img
               className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="./public/assets/brille.png"
+              src="../assets/brille.png"
             />
             <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
               {" "}
