@@ -45,7 +45,7 @@ const About = () => {
       {/* mobile only */}
       <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5"> ABOUT ME</h1>
-        <img className="h-80 w-60 " src="./public/assets/orangeDecor.png" />
+        <img className="h-80 w-60 " src="../assets/orangeDecor.png" />
         <p className="font-body text-justify text-base mx-5 overscroll-x-auto overflow-auto h-60">
           <span className="font-mtitle text-2xl ">Who I Am?</span> By day I'm a
           regular girl and by night a sims4 player … Just joking! I'm a regular
