@@ -6,25 +6,25 @@
 }
 @font-face {
   font-family: "Patua";
-  src: url("../public/assets/Patua.ttf");
+  src: url("../assets/Patua.ttf");
 }
 @font-face {
   font-family: "Quicksand";
-  src: url("../public/assets/Quicksand.ttf");
+  src: url("../assets/Quicksand.ttf");
 }
 @font-face {
   font-family: "Quicksand-bold";
-  src: url("../public/assets/Quicksand-bold.ttf");
+  src: url("../assets/Quicksand-bold.ttf");
 }
 @font-face {
   font-family: "cyrvetica";
-  src: url("../public/assets/cyrvetica.ttf");
+  src: url("../assets/cyrvetica.ttf");
 }
 @font-face {
   font-family: "misto";
-  src: url("../public/assets/Misto.ttf");
+  src: url("../assets/Misto.ttf");
 }
 @font-face {
   font-family: "chromate";
-  src: url("../public/assets/Chromate.ttf");
+  src: url("../assets/Chromate.ttf");
 }
