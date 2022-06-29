@@ -1,6 +1,4 @@
 import emailjs from "emailjs-com";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const notify = () => toast("Message successfully send !");
 
@@ -85,7 +83,6 @@ const ContactForm = () => {
           </button>
         </div>
       </form>{" "}
-      <ToastContainer />
     </div>
   );
 };
