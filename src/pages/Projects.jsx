@@ -130,9 +130,9 @@ const Projects = () => {
                 src="../assets/cenitz.png"
               />
             </a>
-            <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue ">
+            <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue ">
               {" "}
-              <span className="font-body_bold text-left text-lg mb-4">
+              <span className="font-body_bold text-left text-base mb-4">
                 A RESTAURANT BETWEEN LAND AND SEA.
               </span>
               The natural and peaceful atmosphere of the restaurant is aligned
@@ -155,18 +155,16 @@ const Projects = () => {
                 src="../assets/xpanse.png"
               />
             </a>
-            <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
+            <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue">
               {" "}
-              <span className="font-body_bold text-left text-lg mb-4">
+              <span className="font-body_bold text-left text-base mb-4">
                 SPATIAL RECRUITMENT AGENCY.
               </span>
               Xpanse agency has gained worldwide attention for a series of
               historic milestones. It is the only private company capable of
               returning a spacecraft from low-Earth orbit, and in 2012 our
               Dragon spacecraft became the first commercial spacecraft to
-              deliver cargo to and from the International Space Station. And in
-              2020, Xpanse agency became the first private company to take
-              humans there as well.
+              deliver cargo to and from the International Space Station.
             </h1>
           </div>
 
@@ -175,9 +173,9 @@ const Projects = () => {
               className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
               src="../assets/agibask.png"
             />
-            <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
+            <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue">
               {" "}
-              <span className="font-body_bold text-left text-lg mb-4">
+              <span className="font-body_bold text-left text-base mb-4">
                 THE GREEN PLATEFORM.
               </span>
               A platform for connecting individuals and associations for
@@ -193,19 +191,16 @@ const Projects = () => {
               className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
               src="../assets/brille.png"
             />
-            <h1 className="flex flex-col w-80 h-60 mt-8 text-justify font-body text-blue">
+            <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue">
               {" "}
-              <span className="font-body_bold text-left text-lg mb-4">
-                BRILLE, FASHION AND VEGAN HANDBAGS.
+              <span className="font-body_bold text-left text-base mb-4">
+                BRILLE, VEGAN HANDBAGS.
               </span>
               Brille is an eco-responsible and vegan brand of handbags made in
               Spain in a workshop on a human scale, in the heart of the Ubrique
-              region. Its soft vegetable materials, imitating leather to
-              perfection, are produced in northern Italy, from apple waste. Its
-              interior cotton is an eco-responsible material produced in Spain.
-              Brille then offers a qualitative product above all, durable,
-              ethical, good for the planet, chic, glamorous and in bright
-              colors, to shine in all circumstances, wherever you are.
+              region. Brille then offers a qualitative product above all,
+              durable, ethical, good for the planet, chic, glamorous and in
+              bright colors, to shine in all circumstances, wherever you are.
             </h1>{" "}
           </div>
         </div>
