@@ -98,7 +98,7 @@ const Tools = () => {
       <div className=" text-blue flex flex-col items-center font-mtitle border-b h-screen md:hidden">
         <h1 className="text-center text-5xl mt-5"> TOOLS </h1>
         {/* grid tools dev */}
-        <div className="grid grid-cols-2 w-2/3 sm:w-1/2">
+        <div className="grid grid-cols-3 w-2/3 mt-10 sm:w-screen">
           <div>
             <img src="../assets/react.png" />
           </div>
