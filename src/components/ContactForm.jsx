@@ -1,8 +1,8 @@
 import emailjs from "emailjs-com";
-
-const notify = () => toast("Message successfully send !");
+import { useState } from "react";
 
 const ContactForm = () => {
+  const [message, setMessage] = useState(" ");
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -18,9 +18,17 @@ const ContactForm = () => {
       .catch((err) => console.log(err));
   }
 
+  const handleSubmit = (e) => {
+    sendEmail(e);
+    setMessage("Successfully send");
+  };
+
   return (
     <div className="flex p-12 sm:p-0 sm:justify-center">
-      <form className="w-full max-w-[550px] sm:w-64 " onSubmit={sendEmail}>
+      <form
+        className="w-full max-w-[550px] sm:w-64 "
+        onSubmit={(e) => handleSubmit(e)}
+      >
         <div className="mb-5">
           <label htmlFor="name" className="mb-3 block text-blue text-body ">
             Your Name
@@ -73,14 +81,14 @@ const ContactForm = () => {
             className="w-full resize-none placeholder:font-body rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
           ></textarea>
         </div>
-        <div>
+        <div className="flex items-center gap-8 sm:gap-2">
           <button
             type="submit"
             className="rounded-md bg-blue py-3 px-8 text-back text-body"
-            onClick={notify}
           >
             Submit
-          </button>
+          </button>{" "}
+          <div className="text-blue text-body mt-6 sm:flex "> {message} </div>
         </div>
       </form>{" "}
     </div>
