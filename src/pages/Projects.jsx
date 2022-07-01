@@ -173,10 +173,12 @@ const Projects = () => {
           </div>
 
           <div className="snap-center shrink-0">
-            <img
-              className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-              src="../assets/agibask.png"
-            />
+            <a href="https://agibask.vercel.app/" className="" target="_blank">
+              <img
+                className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
+                src="../assets/agibask.png"
+              />
+            </a>
             <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue">
               {" "}
               <span className="font-body_bold text-left text-base mb-4">
