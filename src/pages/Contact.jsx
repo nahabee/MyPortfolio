@@ -6,7 +6,7 @@ const Contact = () => {
       className="bg-projectsline bg-cover h-screen w-screen bg-back"
       name="contact"
     >
-      <h1 className="text-blue text-9xl font-title mx-8 sm:hidden">
+      <h1 className="text-blue text-9xl font-title mx-8 sm:hidden m:text-7xl">
         {" "}
         CONTACT ME.{" "}
       </h1>

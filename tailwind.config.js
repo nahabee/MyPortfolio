@@ -15,10 +15,12 @@ module.exports = {
       md: { min: "767px" },
       // => @media (max-width: 767px) { ... }
 
+      ml: { min: "486px" },
+
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
-      m: { min: "639px" },
-      // => @media (min-width: 639px) { ... }
+      m: { min: "640px" },
+      // => @media (min-width: 640px) { ... }
     },
     letterSpacing: {
       tightest: "-.075em",
