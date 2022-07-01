@@ -1,3 +1,5 @@
+import dataProjects from "../dataProjects";
+
 const Projects = () => {
   return (
     <div
@@ -62,10 +64,12 @@ const Projects = () => {
         </div>
 
         <div className="snap-center shrink-0">
-          <img
-            className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-            src="../assets/agibask.png"
-          />
+          <a href="https://agibask.vercel.app/" className="" target="_blank">
+            <img
+              className="shrink-0 w-96 h-48 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
+              src="../assets/agibask.png"
+            />{" "}
+          </a>
           <h1 className="flex flex-col w-96 mt-8 text-justify font-body text-blue">
             {" "}
             <span className="font-body_bold text-left text-lg mb-4">
