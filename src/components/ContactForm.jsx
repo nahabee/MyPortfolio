@@ -24,13 +24,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex p-12 sm:p-0 sm:justify-center">
+    <div className="flex p-12 sm:p-0 sm:justify-center ml-2">
       <form
         className="w-full max-w-[550px] sm:w-64 "
         onSubmit={(e) => handleSubmit(e)}
       >
         <div className="mb-5">
-          <label htmlFor="name" className="mb-3 block text-blue text-body ">
+          <label htmlFor="name" className="mb-3 block text-blue font-body ">
             Your Name
           </label>
           <input
@@ -43,7 +43,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="email" className="mb-3 block text-blue text-body">
+          <label htmlFor="email" className="mb-3 block text-blue font-body">
             Email
           </label>
           <input
@@ -56,7 +56,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="subject" className="mb-3 block text-blue text-body">
+          <label htmlFor="subject" className="mb-3 block text-blue font-body">
             Subject
           </label>
           <input
@@ -69,7 +69,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="message" className="mb-3 block text-blue text-body">
+          <label htmlFor="message" className="mb-3 block text-blue font-body">
             Message
           </label>
           <textarea
@@ -84,11 +84,11 @@ const ContactForm = () => {
         <div className="flex items-center gap-8 sm:gap-2">
           <button
             type="submit"
-            className="rounded-md bg-blue py-3 px-8 text-back text-body"
+            className="rounded-md bg-blue py-3 px-8 text-back font-body"
           >
             Submit
           </button>{" "}
-          <div className="text-blue text-body mt-6 sm:flex "> {message} </div>
+          <div className="text-blue font-body mt-6 sm:flex "> {message} </div>
         </div>
       </form>{" "}
     </div>
