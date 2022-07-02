@@ -11,7 +11,7 @@ const Projects = () => {
       className="bg-back bg-cover h-screen w-screen border-t border-b border-blue scrollbar-hide sm:auto"
       name="projects"
     >
-      <h1 className="text-blue text-9xl font-title sm:hidden mx-8 ">
+      <h1 className="text-blue text-9xl font-title sm:hidden ml-12 ">
         MY PROJECTS.
       </h1>
       <div className="ml-12 mt-6 sm:hidden">

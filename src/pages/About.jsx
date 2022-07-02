@@ -5,7 +5,7 @@ const About = () => {
       name="about"
     >
       <div className="flex flex-col">
-        <h1 className=" text-blue font-title ml-12 text-9xl mx-8 sm:hidden">
+        <h1 className=" text-blue font-title ml-12 text-9xl  sm:hidden">
           ABOUT ME.
         </h1>
       </div>
