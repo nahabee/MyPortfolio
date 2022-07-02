@@ -24,13 +24,13 @@ const About = () => {
           especially self-help book.{" "}
         </p>
       </div>
-      <div className="flex justify-center -mt-64 sm:hidden">
+      <div className="flex justify-center -mt-64 sm:hidden ">
         <h1 className="skew-y-3 text-5xl flex flex-col w-4/12 font-body text-left text-blue ml-56 -m-4 sm:text-4xl ">
           {" "}
           WHY WEB DEVELOPMENT ?{" "}
         </h1>
       </div>
-      <div className="flex w-3/12 ml-9/9 mt-12 border-l border-r border-blue sm:border-none sm:ml-0 sm:w-auto sm:hidden">
+      <div className="flex w-3/12 ml-9/9 mt-12 border-l border-r border-blue sm:border-none sm:ml-0 sm:w-auto sm:hidden ">
         <p className="font-body text-justify ml-3 mr-3 sm:text-md">
           For web developement, creativity is key. I choose to be front-end web
           developer especially for this reason. We are able to create

@@ -7,6 +7,14 @@ const Home = () => {
           <h2>BENAICHA.</h2>
           <h3 className="text-5xl sm:text-2xl sm:text-left"> WEB DEVELOPER </h3>
         </div>
+        <div className="inset-y-0 left-0">
+          <a href="https://www.linkedin.com/in/nawelbch/" target="_blank">
+            <img
+              className="w-56 h-48 cursor-pointer "
+              src="../assets/linkdin.png"
+            />
+          </a>
+        </div>
       </div>
       {/* mobile only */}
       <div className=" flex flex-col text-blue font-mtitle  m:hidden">
