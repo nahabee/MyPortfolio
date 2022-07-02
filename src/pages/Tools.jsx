@@ -6,18 +6,17 @@ const Tools = () => {
       className="bg-aboutline bg-cover h-screen w-screen border-blue bg-back "
       name="tools"
     >
-      <h1 className="text-blue text-9xl font-title mx-8 sm:hidden m:text-7xl">
+      <h1 className="text-blue text-9xl font-title mx-8 sm:hidden ">
         {" "}
         MY TOOLS.{" "}
       </h1>
       <div className="grid grid-cols-4 h-auto w-4/5 place-items-center sm:hidden  ">
         {dataTools &&
           dataTools.map(({ img }, index) => (
-            <div className="w-56 h-56 ">
+            <div className="w-56 h-56 " key={index}>
               <img
                 className="hover:scale-75 transition duration-700 cursor-pointer"
                 src={img}
-                key={index}
               />
             </div>
           ))}
@@ -30,8 +29,8 @@ const Tools = () => {
         <div className="grid grid-cols-3 w-2/3 mt-20 sm:w-4/5 ">
           {dataTools &&
             dataTools.map(({ img }, index) => (
-              <div>
-                <img src={img} key={index} />
+              <div className="" key={index}>
+                <img src={img} />
               </div>
             ))}
         </div>
