@@ -14,7 +14,7 @@ const Projects = () => {
       <h1 className="text-blue text-9xl font-title sm:hidden mx-8 ">
         MY PROJECTS.
       </h1>
-      <div className="ml-12 mt-6">
+      <div className="ml-12 mt-6 sm:hidden">
         <input
           type="text"
           placeholder="Search by techno "
@@ -58,30 +58,47 @@ const Projects = () => {
       {/* mobile only */}
       <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5"> PROJECTS </h1>
+        <input
+          type="text"
+          placeholder="Search by techno "
+          className="font-body outline-none p-1 text-blue w-80 rounded-lg border-blue border bg-back mt-2 m:hidden"
+          value={containsWord}
+          onChange={(e) => handleContainsWord(e.target.value)}
+        />
+
         {/* projects */}
         <div className="flex w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-8 scrollbar-hide">
+          <div className="snap-center shrink-0 " />
           {dataProjects &&
-            dataProjects.map(({ url, img, title, desc }, index) => (
-              <div className="snap-center shrink-0 " key={index}>
-                <a href={url} target="_blank">
-                  <img
-                    className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
-                    src={img}
-                  />
-                </a>
-                <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue ">
-                  {" "}
-                  <span className="font-body_bold text-left text-base mb-4">
-                    {title}
-                  </span>
-                  {desc}
-                </h1>
-              </div>
-            ))}
+            dataProjects
+              .filter((dataProjects) =>
+                dataProjects.techno
+                  .toLowerCase()
+                  .includes(containsWord.toLowerCase())
+              )
+              .map(({ url, img, title, desc, techno }, index) => (
+                <div className="snap-center shrink-0 " key={index}>
+                  <a href={url} target="_blank">
+                    <img
+                      className="shrink-0 w-80 h-52 rounded-lg shadow-xl bg-white hover:scale-90 ease-in duration-500 cursor-pointer"
+                      src={img}
+                    />
+                  </a>
+                  <h1 className="flex flex-col w-80 mt-8 text-justify font-body text-blue ">
+                    {" "}
+                    <span className="font-body_bold text-left text-base mb-4">
+                      {title}
+                    </span>
+                    {desc}
+                  </h1>
+                  <a className="font-body hidden">{techno}</a>
+                </div>
+              ))}
+          <div className="snap-center shrink-0 " />
         </div>
       </div>
       {/* mobile version stop */}
-      <a className="md:hidden text-blue font-mtitle"> Discover → </a>
+      <a className="md:hidden text-blue font-mtitle ml-8"> Discover → </a>
     </div>
   );
 };

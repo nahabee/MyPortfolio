@@ -7,12 +7,15 @@ const Home = () => {
           <h2>BENAICHA.</h2>
           <h3 className="text-5xl sm:text-2xl sm:text-left"> WEB DEVELOPER </h3>
         </div>
-        <div className="inset-y-0 left-0">
+        <div className="absolute inset-x-0 bottom-0 flex justify-end gap-3 mr-2 text-xl">
           <a href="https://www.linkedin.com/in/nawelbch/" target="_blank">
-            <img
-              className="w-56 h-48 cursor-pointer "
-              src="../assets/linkdin.png"
-            />
+            <p>in </p>
+          </a>
+          <a
+            href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new"
+            target="_blank"
+          >
+            <p>mail</p>
           </a>
         </div>
       </div>
