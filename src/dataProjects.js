@@ -41,7 +41,7 @@ const dataProjects = [
     img: "../assets/vision.png",
     url: "https://gallery-vision.vercel.app",
     title: "THE ART GALLERY.",
-    desc: "Showcase site, on the theme of an art, photography and design gallery. With a horizontal layout to let you get carried away in the universe of each theme presented. Selection of taste to give the opportunity to many artists to gain visibility.",
+    desc: "Showcase site for desktop only, on the theme of an art, photography and design gallery. With a horizontal layout to let you get carried away in the universe of each theme presented. Selection of taste to give the opportunity to many artists to gain visibility.",
     techno: "React, Tailwind",
   },
 ];
