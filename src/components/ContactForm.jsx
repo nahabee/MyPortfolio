@@ -39,7 +39,7 @@ const ContactForm = () => {
             id="name"
             placeholder="Full Name"
             required={true}
-            className="w-full placeholder:font-body  rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
+            className="w-full placeholder:font-body text-[16px] rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
           />
         </div>
         <div className="mb-5">
@@ -52,7 +52,7 @@ const ContactForm = () => {
             id="email"
             placeholder="example@domain.com"
             required={true}
-            className="w-full  placeholder:font-body rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
+            className="w-full  placeholder:font-body text-[16px] rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
           />
         </div>
         <div className="mb-5">
@@ -65,7 +65,7 @@ const ContactForm = () => {
             id="subject"
             placeholder="Enter your subject"
             required={true}
-            className="w-full  placeholder:font-body rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
+            className="w-full  placeholder:font-body text-[16px] rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
           />
         </div>
         <div className="mb-5">
@@ -78,7 +78,7 @@ const ContactForm = () => {
             id="message"
             placeholder="Type your message"
             required={true}
-            className="w-full resize-none placeholder:font-body rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
+            className="w-full resize-none placeholder:font-body text-[16px] rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
           ></textarea>
         </div>
         <div className="flex items-center gap-8 sm:gap-2">
