@@ -28,10 +28,10 @@
   font-family: "chromate";
   src: url("../assets/Chromate.ttf");
 }
-@media screen and (max-width: 767px) {
-  input,
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   select,
-  textarea {
+  textarea,
+  input {
     font-size: 16px;
   }
 }
