@@ -16,7 +16,7 @@ const About = () => {
         </h1>
         <p className="font-body text-justify mb-3 sm:hidden ">
           By day I'm a regular girl and by night a sims4 player … Just joking!
-          I'm a regular girl all the time, harde worker, close to my family, and
+          I'm a regular girl all the time, hard worker, close to my family, and
           mother of a dog. Actually, my dog thinks I'm a hero because I saved
           him from the street. I'm a talkative person and I believe
           communication is important. I love to travel and I'm always planning
@@ -49,7 +49,7 @@ const About = () => {
         <p className="font-body text-justify text-base mx-5 overscroll-x-auto overflow-auto h-60">
           <span className="font-mtitle text-2xl ">Who I Am?</span> By day I'm a
           regular girl and by night a sims4 player … Just joking! I'm a regular
-          girl all the time, harde worker, close to my family, and mother of a
+          girl all the time, hard worker, close to my family, and mother of a
           dog. Actually, my dog thinks I'm a hero because I saved him from the
           street. I'm a talkative person and I believe communication is
           important. I love to travel and I'm always planning my next trip.I
