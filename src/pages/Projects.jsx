@@ -18,7 +18,7 @@ const Projects = () => {
         <input
           type="text"
           placeholder="Search by techno "
-          className="font-body outline-none p-1 text-blue w-96 rounded-lg border-blue border bg-back"
+          className="font-body outline-none p-1 text-[16px] text-blue w-96 rounded-lg border-blue border bg-back"
           value={containsWord}
           onChange={(e) => handleContainsWord(e.target.value)}
         />
