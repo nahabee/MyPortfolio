@@ -60,6 +60,7 @@ const Projects = () => {
         <h1 className="text-center text-5xl mt-5"> PROJECTS </h1>
         <input
           type="text"
+          onfocus="false"
           placeholder="Search by techno "
           className="font-body outline-none p-1 text-blue w-80 rounded-lg border-blue border bg-back mt-2 m:hidden"
           value={containsWord}
