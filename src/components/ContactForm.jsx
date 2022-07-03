@@ -37,6 +37,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             id="name"
+            onfocus="false"
             placeholder="Full Name"
             required={true}
             className="w-full placeholder:font-body text-[16px] rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
@@ -49,6 +50,7 @@ const ContactForm = () => {
           <input
             type="email"
             name="email"
+            onfocus="false"
             id="email"
             placeholder="example@domain.com"
             required={true}
@@ -61,6 +63,7 @@ const ContactForm = () => {
           </label>
           <input
             type="text"
+            onfocus="false"
             name="subject"
             id="subject"
             placeholder="Enter your subject"
@@ -76,6 +79,7 @@ const ContactForm = () => {
             rows="4"
             name="message"
             id="message"
+            onfocus="false"
             placeholder="Type your message"
             required={true}
             className="w-full resize-none placeholder:font-body text-[16px] rounded-md border border-blue bg-back py-3 px-6 outline-none focus:shadow-md"
