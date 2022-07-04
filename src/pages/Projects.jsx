@@ -58,14 +58,6 @@ const Projects = () => {
       {/* mobile only */}
       <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5"> PROJECTS </h1>
-        <input
-          type="text"
-          onfocus="false"
-          placeholder="Search by techno "
-          className="font-body outline-none p-1 text-blue w-80 text-[16px] rounded-lg border-blue border bg-back mt-2 m:hidden"
-          value={containsWord}
-          onChange={(e) => handleContainsWord(e.target.value)}
-        />
 
         {/* projects */}
         <div className="flex w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-10 gap-8 scrollbar-hide">
