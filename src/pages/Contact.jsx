@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 import { Link } from "react-scroll";
 
@@ -18,6 +19,7 @@ const Contact = () => {
       </div>
       <div className="">
         <ContactForm />
+        <Footer />
       </div>
     </div>
   );
