@@ -26,7 +26,7 @@ const Tools = () => {
       <div className=" text-blue flex flex-col items-center font-mtitle border-b h-screen md:hidden m:hidden">
         <h1 className="text-center text-5xl mt-5"> TOOLS </h1>
         {/* grid tools dev */}
-        <div className="grid grid-cols-3 w-96 mt-16">
+        <div className="grid grid-cols-3 sm:w-80 mt-16">
           {dataTools &&
             dataTools.map(({ img }, index) => (
               <div className="" key={index}>
