@@ -16,13 +16,9 @@ const Contact = () => {
       <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5 mb-5"> CONTACT </h1>
       </div>
-      <ContactForm />
-      <Link className="cursor-pointer" to="/" smooth={true} duration={900}>
-        <p className="text-blue font-body flex justify-end mr-4 mt-8 m:hidden">
-          {" "}
-          Back to top
-        </p>
-      </Link>
+      <div className="">
+        <ContactForm />
+      </div>
     </div>
   );
 };
