@@ -18,7 +18,7 @@ const Contact = () => {
       <ContactForm />
       <div className="flex flex-col justify-center">
         <img className="-mt-10" src="../assets/formcat.png" />
-        <div className="m:hidden font-body text-2xl tracking-widest h-52 justify-around text-blue flex flex-col items-center">
+        <div className="m:hidden -mt-10 font-body text-2xl tracking-widest h-52 justify-around text-blue flex flex-col items-center">
           <a
             href="mailto: nawelbenaicha@gmail.com"
             target="_blank"
