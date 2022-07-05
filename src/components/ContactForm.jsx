@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex p-12 sm:p-0 sm:justify-center ml-2 sm:ml-0">
+    <div className="flex p-12 sm:p-0 sm:hidden ml-2">
       <form
         className="w-full max-w-[550px] sm:w-3/5 sm:max-width-[60%] "
         onSubmit={(e) => handleSubmit(e)}

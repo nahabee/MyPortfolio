@@ -1,8 +1,6 @@
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 
-import { Link } from "react-scroll";
-
 const Contact = () => {
   return (
     <div
@@ -17,10 +15,30 @@ const Contact = () => {
       <div className=" text-blue flex flex-col items-center font-mtitle m:hidden">
         <h1 className="text-center text-5xl mt-5 mb-5"> CONTACT </h1>
       </div>
-      <div className="">
-        <ContactForm />
-        <Footer />
+      <ContactForm />
+      <div className="flex flex-col justify-center">
+        <img className="-mt-10" src="../assets/formcat.png" />
+        <div className="m:hidden font-body text-2xl tracking-widest h-52 justify-around text-blue flex flex-col items-center">
+          <a
+            href="mailto: nawelbenaicha@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h1 className="cursor-pointer hover:text-peche"> Mail</h1>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nawelbch/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2 className="cursor-pointer hover:text-peche">Linkedin</h2>
+          </a>
+          <a href="https://github.com/nahabee" target="_blank" rel="noreferrer">
+            <h3 className="cursor-pointer hover:text-peche">GitHub</h3>
+          </a>
+        </div>{" "}
       </div>
+      <Footer />
     </div>
   );
 };
