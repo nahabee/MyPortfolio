@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Contact = () => {
   return (
     <div
-      className="bg-projectsline bg-cover h-screen w-screen bg-back"
+      className="bg-projectsline bg-cover h-screen w-screen bg-back min-h-screen max-h-screen"
       name="contact"
     >
       <h1 className="text-blue text-9xl font-title ml-12 sm:hidden ">
