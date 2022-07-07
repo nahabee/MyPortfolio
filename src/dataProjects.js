@@ -35,6 +35,15 @@ const dataProjects = [
     desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
     techno: "Typescript, ExpressJS, MySQL",
   },
+  {
+    id: 5,
+    name: "Upside",
+    img: "../assets/upside.png",
+    url: "https://upside.vercel.app",
+    title: "HACKATHON - 2nd EUROPEAN WINNERS",
+    desc: "WILD CODE SCHOOL EUROPE x APSIDE. The challenge was to improved collaborative and collective intelligence by sharing task forces and assets on a new platform. And that in 48 hours. Our solution ? PLATFORM-SHARING: An overview of all ongoing projects, including timeline and progress status. ORGANIZING: Searching through the list of projects with a wide array of criteria. UPDATING: Efficiently creating and adding new projects to the dashboard.",
+    techno: "Typescript, ExpressJS, MySQL",
+  },
 ];
 
 export default dataProjects;
