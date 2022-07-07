@@ -35,15 +35,6 @@ const dataProjects = [
     desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
     techno: "Typescript, ExpressJS, MySQL",
   },
-  {
-    id: 5,
-    name: "Vision",
-    img: "../assets/vision.png",
-    url: "",
-    title: "THE ART GALLERY.",
-    desc: "Showcase site for desktop only, on the theme of an art, photography and design gallery. With a horizontal layout to let you get carried away in the universe of each theme presented. Selection of taste to give the opportunity to many artists to gain visibility.",
-    techno: "React, Tailwind",
-  },
 ];
 
 export default dataProjects;
