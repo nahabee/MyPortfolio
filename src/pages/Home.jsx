@@ -10,9 +10,8 @@ const Home = () => {
         <div className=" text-9xl sm:text-5xl sm:text-left sm:mt-0">
           <h1>NAWEL</h1>
           <h2>BENAICHA.</h2>
-          <h3 className="text-5xl ml-1 sm:text-2xl sm:text-left">
-            {" "}
-            WEB DEVELOPER{" "}
+          <h3 className="text-4xl ml-1 sm:text-2xl sm:text-left">
+            WEB DEVELOPER / DESIGNER {""}
             <Link
               className="cursor-pointer"
               to="about"
