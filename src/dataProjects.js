@@ -1,12 +1,12 @@
 const dataProjects = [
   {
     id: 1,
-    name: "Cenitz",
-    img: "../assets/cenitz.png",
-    url: "https://cenitz.vercel.app",
-    title: " A RESTAURANT BETWEEN LAND AND SEA ",
-    desc: "The natural and peaceful atmosphere of the restaurant is aligned with this environment between land and sea. We were also exceptionally lucky that the architecture and design of the place was carried out by India Mahdavi. The restaurant also has a terrace outdoor area ideal for sunny days, as well as a vegetated winter garden, echoing the land-sea cuisine of our chef.",
-    techno: "Html, Sass",
+    name: "Klar",
+    img: "../assets/klar.png",
+    url: "https://klar-underwear.vercel.app/",
+    title: " UNDERWEAR NATURAL BRAND. ",
+    desc: "Klar is a brand that simply lets you be you! To be who you are every day and every night. Sensual, natural, modest, sophisticated, wise and mysterious… What does it matter!",
+    techno: "React, Tailwind",
   },
   {
     id: 2,
@@ -28,20 +28,31 @@ const dataProjects = [
   },
   {
     id: 4,
-    name: "Brille",
-    img: "../assets/brille.png",
-    url: "",
-    title: "BRILLE, VEGAN HANDBAGS.",
-    desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
-    techno: "Typescript, ExpressJS, MySQL",
-  },
-  {
-    id: 5,
     name: "Upside",
     img: "../assets/upside.png",
     url: "https://upside.vercel.app",
     title: "HACKATHON - 2nd EUROPEAN WINNERS",
     desc: "WILD CODE SCHOOL EUROPE x APSIDE. The challenge was to improved collaborative and collective intelligence by sharing task forces and assets on a new platform. And that in 48 hours. Our solution ? PLATFORM-SHARING: An overview of all ongoing projects, including timeline and progress status. ORGANIZING: Searching through the list of projects with a wide array of criteria. UPDATING: Efficiently creating and adding new projects to the dashboard.",
+    techno: "Typescript, ExpressJS, MySQL",
+  },
+
+  {
+    id: 1,
+    name: "Cenitz",
+    img: "../assets/cenitz.png",
+    url: "https://cenitz.vercel.app",
+    title: " A RESTAURANT BETWEEN LAND AND SEA ",
+    desc: "The natural and peaceful atmosphere of the restaurant is aligned with this environment between land and sea. We were also exceptionally lucky that the architecture and design of the place was carried out by India Mahdavi. The restaurant also has a terrace outdoor area ideal for sunny days, as well as a vegetated winter garden, echoing the land-sea cuisine of our chef.",
+    techno: "Html, Sass",
+  },
+
+  {
+    id: 5,
+    name: "Brille",
+    img: "../assets/brille.png",
+    url: "",
+    title: "BRILLE, VEGAN HANDBAGS.",
+    desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
     techno: "Typescript, ExpressJS, MySQL",
   },
 ];
