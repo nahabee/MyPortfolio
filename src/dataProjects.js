@@ -46,15 +46,15 @@ const dataProjects = [
     desc: "The website of a digital creator in full development. Between web design and UGC creation, it stands out for the quality of its unique digital content. This site allows you to learn more about her artistic touch and the offer she offers you.",
     techno: "React, NextJS, Tailwind",
   },
-  {
-    id: 5,
-    name: "Brille",
-    img: "../assets/brille.png",
-    url: "",
-    title: "BRILLE, VEGAN HANDBAGS.",
-    desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
-    techno: "Typescript, ExpressJS, MySQL",
-  },
+  // {
+  //   id: 5,
+  //   name: "Brille",
+  //   img: "../assets/brille.png",
+  //   url: "",
+  //   title: "BRILLE, VEGAN HANDBAGS.",
+  //   desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
+  //   techno: "Typescript, ExpressJS, MySQL",
+  // },
 ];
 
 export default dataProjects;
