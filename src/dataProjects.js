@@ -55,15 +55,6 @@ const dataProjects = [
     desc: "Brille is an eco-responsible and vegan brand of handbags made in Spain in a workshop on a human scale, in the heart of the Ubrique region. Brille then offers a qualitative product above all, durable, ethical, good for the planet, chic, glamorous and in bright colors, to shine in all circumstances, wherever you are.",
     techno: "Typescript, ExpressJS, MySQL",
   },
-  {
-    id: 6,
-    name: "Klar",
-    img: "../assets/klar.png",
-    url: "https://klar-underwear.vercel.app/",
-    title: " UNDERWEAR NATURAL BRAND. ",
-    desc: "Klar is a brand that simply lets you be you! To be who you are every day and every night. Sensual, natural, modest, sophisticated, wise and mysterious… What does it matter!",
-    techno: "React, Tailwind",
-  },
 ];
 
 export default dataProjects;
