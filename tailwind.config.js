@@ -5,7 +5,7 @@ module.exports = {
     screens: {
       "2xl": { min: "1535px" },
       // => @media (max-width: 1535px) { ... }
-
+      xl: { min: "1350px" },
       lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
 
