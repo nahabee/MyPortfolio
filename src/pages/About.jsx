@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div
-      className="bg-back bg-aboutline bg-cover h-screen w-screen max-h-fit sm:auto"
+      className="bg-back bg-aboutline bg-cover w-screen h-fit min-h-screen sm:auto"
       name="about"
     >
       <div className="flex flex-col">
