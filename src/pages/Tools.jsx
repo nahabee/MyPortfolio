@@ -3,7 +3,7 @@ import dataTools from "../dataTools";
 const Tools = () => {
   return (
     <div
-      className="bg-aboutline bg-cover h-screen w-screen border-blue bg-back "
+      className="bg-aboutline bg-cover h-screen max-h-fit w-screen border-blue bg-back "
       name="tools"
     >
       <h1 className="text-blue text-9xl font-title ml-12 sm:hidden uppercase ">

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 const Contact = () => {
   return (
     <div
-      className="bg-projectsline bg-cover h-screen w-screen bg-back min-h-screen max-h-screen"
+      className="bg-projectsline bg-cover max-h-fit h-screen w-screen bg-back min-h-screen "
       name="contact"
     >
       <h1 className="text-blue text-9xl font-title ml-12 sm:hidden ">

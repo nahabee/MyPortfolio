@@ -8,7 +8,7 @@ const Projects = () => {
   };
   return (
     <div
-      className="bg-back bg-cover h-screen w-screen border-t border-b border-blue sm:auto"
+      className="bg-back bg-cover h-screen max-h-fit w-screen border-t border-b border-blue sm:auto"
       name="projects"
     >
       <h1 className="text-blue text-9xl font-title sm:hidden ml-12 uppercase ">
