@@ -24,7 +24,7 @@ const Projects = () => {
         />
       </div>
       {/* Présentation des projets */}
-      <div className=" w-full flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-5 py-6 gap-12 scrollbar-hide sm:hidden">
+      <div className=" w-full flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain mt-5 py-6 gap-12  sm:hidden">
         <div className="snap-center shrink-0 " />
         {dataProjects &&
           dataProjects
