@@ -8,16 +8,16 @@ const Projects = () => {
   };
   return (
     <div
-      className="bg-back bg-cover h-screen w-screen border-t border-b border-blue scrollbar-hide sm:auto"
+      className="bg-back bg-cover h-screen w-screen border-t border-b border-blue sm:auto"
       name="projects"
     >
-      <h1 className="text-blue text-9xl font-title sm:hidden ml-12 ">
-        MY PROJECTS.
+      <h1 className="text-blue text-9xl font-title sm:hidden ml-12 uppercase ">
+        Mes projets.
       </h1>
       <div className="ml-12 mt-6 sm:hidden">
         <input
           type="text"
-          placeholder="Search by techno "
+          placeholder="Recherche par techno "
           className="font-body outline-none p-1 text-[16px] text-blue w-96 rounded-lg border-blue border bg-back"
           value={containsWord}
           onChange={(e) => handleContainsWord(e.target.value)}

@@ -10,24 +10,29 @@ const Home = () => {
         <div className=" text-9xl sm:text-5xl sm:text-left sm:mt-0">
           <h1>NAWEL</h1>
           <h2>BENAICHA.</h2>
-          <h3 className="text-4xl ml-1 sm:text-2xl sm:text-left">
-            WEB DEVELOPER / DESIGNER {""}
-            <Link
-              className="cursor-pointer"
-              to="about"
-              smooth={true}
-              duration={900}
-            >
-              <button className="w-5 h-5">
-                {" "}
-                <img
-                  className="hover:animate-bounce"
-                  src="../assets/down-arrow.png"
-                />
-              </button>
-            </Link>
-          </h3>
-          <div className="text-2xl flex gap-4 ml-2 font-body">
+          <div className="text-5xl ml-1 sm:text-2xl sm:text-left uppercase mt-14">
+            <div className="flex flex-col">
+              <span>Webmarketing </span>
+              <span className="flex gap-4">
+                communication digitale
+                <Link
+                  className="cursor-pointer"
+                  to="about"
+                  smooth={true}
+                  duration={900}
+                >
+                  <button className="w-5 h-5">
+                    {" "}
+                    <img
+                      className="hover:animate-bounce"
+                      src="../assets/down-arrow.png"
+                    />
+                  </button>
+                </Link>
+              </span>
+            </div>
+          </div>
+          <div className="text-2xl flex gap-4 ml-2 font-body mt-14">
             <Link
               className="cursor-pointer "
               to="about"
@@ -35,7 +40,7 @@ const Home = () => {
               duration={600}
             >
               {" "}
-              <h1 className="hover:underline cursor-pointer">About</h1>
+              <h1 className="hover:underline cursor-pointer">A propos</h1>
             </Link>
             <Link
               className="cursor-pointer "
@@ -44,7 +49,7 @@ const Home = () => {
               duration={500}
             >
               {" "}
-              <h2 className="hover:underline cursor-pointer">Projects</h2>
+              <h2 className="hover:underline cursor-pointer">Projets</h2>
             </Link>
             <Link
               className="cursor-pointer "
@@ -52,7 +57,7 @@ const Home = () => {
               smooth={true}
               duration={400}
             >
-              <h3 className="hover:underline cursor-pointer">Tools</h3>
+              <h3 className="hover:underline cursor-pointer">Outils</h3>
             </Link>
             <Link
               className="cursor-pointer"
@@ -71,13 +76,15 @@ const Home = () => {
         <h1 className="uppercase text-center text-5xl mt-5 sm:mt-3">
           Nawel Benaicha
         </h1>
-        <h2 className="text-center text-xl">Web developer</h2>
+        <h2 className="text-center text-xl">
+          Web marketing <br /> Communication digitale
+        </h2>
       </div>
       <div className="flex flex-col items-center text-blue m:hidden">
         <img src="../assets/flower.png" />
         <p className="font-body text-center -mt-6 ">
           {" "}
-          <span className="font-mtitle text-3xl">M</span>obile version of this
+          <span className="font-mtitle text-3xl">V</span>ersion mobile de ce
           portfolio.
         </p>
       </div>

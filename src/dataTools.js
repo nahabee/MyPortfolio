@@ -21,7 +21,7 @@ const dataTools = [
   },
   {
     id: 6,
-    img: "../assets/sass.png",
+    img: "../assets/capcut.png",
   },
   {
     id: 7,
