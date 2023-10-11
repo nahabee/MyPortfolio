@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      className="bg-back bg-homeline bg-cover h-fit min-h-screen w-screen sm:bg-none sm:border-b sm:border-blue"
+      className="bg-back bg-homeline bg-cover bg-left h-fit min-h-screen w-screen sm:bg-none sm:border-b sm:border-blue"
       name="/"
     >
       <div className="flex flex-col h-screen text-blue font-title mx-6 sm:hidden ">
